@@ -1,0 +1,136 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 0px 40px;
+
+  position: sticky;
+  top: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.208);
+  background: transparent;
+  backdrop-filter: blur(12px);
+  width: 100%;
+  z-index: 1204;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo-container img {
+  width: 80px;
+}
+
+nav > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  list-style: none;
+  gap: 80px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  color: rgb(81, 81, 81);
+}
+
+nav > ul > li > a:hover {
+  color: rgb(26, 26, 26);
+  transition: all 0.2s;
+}
+
+.button-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+#login {
+  text-decoration: none;
+  background-color: rgb(59, 59, 59);
+  color: white;
+  margin-right: 10px;
+  padding: 6px 12px;
+  border: 1px solid rgb(59, 59, 59);
+  border-radius: 8px;
+}
+
+#login:hover {
+  background-color: rgba(59, 59, 59, 0.9);
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+#sign-up {
+  text-decoration: none;
+  color: rgb(59, 59, 59);
+  border: 1px solid rgb(59, 59, 59);
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+#sign-up:hover {
+  background-color: rgb(59, 59, 59, 0.9);
+  color: white;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+main {
+  padding: 0px 40px;
+}
+
+.hero-container {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+}
+
+.hero-container h1 {
+  font-size: 45px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.hero-container p {
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.456);
+}
+
+.hero-container img {
+  width: 450px;
+  border-radius: 8px;
+}
+
+.hero-section-button {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
+
+#shop-now, #learn-more {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+#shop-now {
+  
+}
