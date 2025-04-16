@@ -16,10 +16,10 @@ nav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 0px 40px;
+  padding: 0px 120px;
 
-  position: sticky;
-  top: 0;
+  position: fixed;
+  top: 0px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.208);
   background: transparent;
   backdrop-filter: blur(12px);
@@ -72,7 +72,7 @@ nav > ul > li > a:hover {
 }
 
 #login:hover {
-  background-color: rgba(59, 59, 59, 0.9);
+  background-color: rgba(59, 59, 59, 0.95);
   cursor: pointer;
   transition: all 0.2s;
 }
@@ -86,19 +86,22 @@ nav > ul > li > a:hover {
 }
 
 #sign-up:hover {
-  background-color: rgb(59, 59, 59, 0.9);
+  background-color: rgb(59, 59, 59, 0.95);
   color: white;
   cursor: pointer;
   transition: all 0.2s;
 }
 
 main {
-  padding: 0px 40px;
+  margin-top: 140px;
+  padding: 0px 120px;
 }
 
 .hero-container {
-  margin-top: 40px;
+  margin: 60px 0px;
   display: flex;
+  flex-direction: row;
+  align-items: center;
   justify-content: space-between;
   gap: 20px;
 }
@@ -115,14 +118,13 @@ main {
 }
 
 .hero-container img {
-  width: 450px;
-  border-radius: 8px;
+  width: 600px;
+  border-radius: 8px;                                                                                       
 }
 
 .hero-section-button {
   margin-top: 20px;
   display: flex;
-  flex-direction: row;
   gap: 20px;
 }
 
@@ -132,5 +134,34 @@ main {
 }
 
 #shop-now {
-  
+  border: 1px solid rgb(59, 59, 59);
+  background-color: rgb(59, 59, 59);
+  color: white;
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+#learn-more {
+  border: 1px solid rgb(59, 59, 59);
+  color: rgb(59, 59, 59);
+  padding: 6px 12px;
+  border-radius: 8px;
+}
+
+#shop-now:hover {
+  background-color: rgb(59, 59, 59, 0.95);
+  cursor: pointer;
+  animation: all 0.2s;
+}
+
+#learn-more:hover {
+  background-color: rgb(59, 59, 59, 0.95);
+  color: white;
+  cursor: pointer;
+  animation: all 0.2s;
+}
+
+.our-best-sellers-container h2{
+  text-align: center;
+  font-size: 45px;
 }
