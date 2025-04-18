@@ -5,6 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
     <link rel="stylesheet" href="./styles/index.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -17,7 +28,7 @@
         </div>
         <ul class="nav-links">
           <li>
-            <a href="index.html">Home</a>
+            <a href="index.html" class="active">Home</a>
           </li>
           <li>
             <a href="#">Headphones</a>
@@ -33,33 +44,156 @@
       </nav>
     </header>
     <main>
-        <!-- hero section -->
-        <section class="hero-container">
-          <!-- left content -->
-          <div>
-            <h1>
-              Experience the EchoSound Elite
-            </h1>
-            <p>
-              Dive into immersive sound with cutting-edge technology and elegant
-              design.
-            </p>
-            <div class="hero-section-button">
-              <a href="#" id="shop-now">Shop Now</a>
-              <a href="#" id="learn-more">Learn More</a>
-            </div>
+      <!-- hero section -->
+      <section class="hero-container">
+        <!-- left content -->
+        <div>
+          <h1>Experience the EchoSound Elite</h1>
+          <p>
+            Dive into immersive sound with cutting-edge technology and elegant
+            design.
+          </p>
+          <div class="hero-section-button">
+            <a href="#" id="shop-now">Shop Now</a>
+            <a href="#" id="learn-more">Learn More</a>
           </div>
-          <img src="./assets/img/hero-section-headphones.jpg" alt="Black headphones with a premium design.">
-        </section>
-        <!-- our best sellers section -->
-         <section class="our-best-sellers-container">
-            <h2>
-              Our Best Sellers
-            </h2>
-            <div class="best-sellers-img-container">
-                
+        </div>
+        <img
+          src="./assets/img/hero-section-headphones.jpg"
+          alt="Black headphones with a premium design."
+        />
+      </section>
+
+      <!-- our best sellers section -->
+      <section class="our-best-sellers-container">
+        <h2>Our Best Sellers</h2>
+        <div class="best-sellers-img-container">
+          <div id="best-seller-1">
+            <img src="./assets/img/airpods.jpg" alt="airport pro" />
+          </div>
+          <div id="best-seller-2">
+            <img src="./assets/img/Bose 700.webp" alt="bose 700" />
+          </div>
+          <div id="best-seller-3">
+            <img src="./assets/img/speaker-3.webp" alt="speaker" />
+          </div>
+        </div>
+      </section>
+
+      <!-- why choose us section -->
+      <section class="why-choose-us-container">
+        <h2>Why Choose Us</h2>
+        <div class="why-choose-us-card-container">
+          <!-- card 1 -->
+          <div class="why-choose-us-card">
+            <img src="./assets/icons/soundwaves.png" alt="sound waves icon" />
+            <h3>Immersive Sound & Comfort</h3>
+            <p>
+              Experience rich, crystal-clear audio with deep bass, thanks to
+              top-tier audio technology. Perfect for music, movies, and calls.
+            </p>
+            <p>
+              Designed for comfort, the lightweight frame and cushioned ear cups
+              ensure a secure, fatigue-free fit during long listening sessions.
+            </p>
+            <p>
+              Enjoy enhanced noise isolation, making these headphones perfect
+              for both focus and relaxation, whether at home or on the go.
+            </p>
+          </div>
+
+          <!-- card 2 -->
+          <div class="why-choose-us-card">
+            <img src="./assets/icons/tag.png" alt="price tag icon" />
+            <h3>Affordable Prices</h3>
+            <p>
+              Enjoy premium sound and comfort without the premium price tag.
+              High-quality headphones that fit your budget.
+            </p>
+            <p>
+              Get exceptional value for money, combining top-tier features with
+              an affordable price to make great audio accessible to everyone.
+            </p>
+          </div>
+
+          <!-- card 3 -->
+          <div class="why-choose-us-card">
+            <img src="./assets/icons/truck.png" alt="truck shipping icon" />
+            <h3>Fast Shipping</h3>
+            <p>
+              Get your order delivered quickly and reliably with our efficient
+              shipping service, so you can enjoy your new headphones sooner.
+            </p>
+            <p>
+              We prioritize fast processing and secure delivery, ensuring that
+              your products arrive in perfect condition and on time.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- customer rating & reviews -->
+      <section class="costumer-rating-container">
+        <h2>Costumer Ratings & Reviews</h2>
+        <div class="ultimate-costumer-rating-card-container">
+          <!-- card 1 -->
+          <div class="costumer-rating-card-container">
+            <div class="stars-container">
+              <div class="stars">
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-half text-warning"></span>
+              </div>
+              <p>4.5</p>
             </div>
-         </section>
+            <p><strong>Try Dana</strong></p>
+            <p>
+              These headphones are amazing! The sound quality is top-notch, and
+              they're so comfortable to wear for long hours. Highly recommended!
+            </p>
+          </div>
+
+          <!-- card 2 -->
+          <div class="costumer-rating-card-container">
+            <div class="stars-container">
+              <div class="stars">
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-half text-warning"></span>
+              </div>
+              <p>4.5</p>
+            </div>
+            <p><strong>Try Dana</strong></p>
+            <p>
+              These headphones are amazing! The sound quality is top-notch, and
+              they're so comfortable to wear for long hours. Highly recommended!
+            </p>
+          </div>
+
+          <!-- card 3 -->
+          <div class="costumer-rating-card-container">
+            <div class="stars-container">
+              <div class="stars">
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-half text-warning"></span>
+              </div>
+              <p>4.5</p>
+            </div>
+            <p><strong>Try Dana</strong></p>
+            <p>
+              These headphones are amazing! The sound quality is top-notch, and
+              they're so comfortable to wear for long hours. Highly recommended!
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
     <footer></footer>
   </body>
