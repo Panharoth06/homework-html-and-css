@@ -161,6 +161,14 @@ main {
     color: white;
     cursor: pointer;
 }
+.top-brand-container {
+    margin-top: 140px;
+}
+
+.top-brand-container h2{
+    text-align: center;
+    font-size: 45px;
+}
 
 .card-container {
     display: grid;
