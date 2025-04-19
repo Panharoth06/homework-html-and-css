@@ -262,6 +262,10 @@ main {
   transition: transform 0.3s ease;
 }
 
+.costumer-rating-card-container:hover{
+  transform: translateY(-5px);
+}
+
 .stars-container {
   display: flex;
   gap: 20px;
@@ -274,4 +278,11 @@ main {
 
 .costumer-rating-container p {
   margin-bottom: 5px;
+}
+
+footer {
+  background-color: rgb(33, 37, 41);
+  color: white;
+  text-align: center;
+  padding: 24px 0px;
 }
