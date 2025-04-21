@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Headphones</title>
-    <link rel="stylesheet" href="../styles/headphones.css" />
+    <title>Speakers</title>
+    <link rel="stylesheet" href="../styles/speakers.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
@@ -31,10 +31,10 @@
             <a href="/index.html">Home</a>
           </li>
           <li>
-            <a href="headphones.html" class="active">Headphones</a>
+            <a href="headphones.html">Headphones</a>
           </li>
           <li>
-            <a href="speakers.html">Speakers</a>
+            <a href="speakers.htmll" class="active">Speakers</a>
           </li>
         </ul>
         <div class="button-container">
@@ -43,30 +43,34 @@
         </div>
       </nav>
     </header>
+
     <main>
       <!-- hero section -->
       <section class="hero-container">
-        <div class="hero-content">
+        <!-- left content -->
+        <div>
           <h1>Experience Sound Like Never Before</h1>
           <p>
-            Discover the ultimate sound quality with our premium headphones.
+            Discover the ultimate sound quality with our premium speakers.
             Perfect for music lovers, gamers, and audio enthusiasts.
           </p>
-          <div class="hero-button-container">
-            <a href="#" class="hero-button">Explore Features</a>
+          <div class="hero-section-button">
+            <a href="#" id="shop-now">Shop Now</a>
+            <a href="#" id="learn-more">Explore Features</a>
           </div>
         </div>
+        <img
+          src="../assets/img/hero-speaker.webp"
+          alt="Black headphones with a premium design."
+        />
       </section>
-      <!--top brand headphones section  -->
+
       <section class="top-brand-container">
-        <h2>Explore Headphones from Top Brands</h2>
+        <h2>Explore Speakers from Top Brands</h2>
         <div class="card-container">
           <div class="card-1">
             <div class="img-container">
-              <img
-                src="../assets/img/sony WH-1000XM5.webp"
-                alt="sony WH-1000XM5"
-              />
+              <img src="../assets/img/speaker-1.jpg" alt="SonicPulse Xtreme" />
             </div>
             <div class="card">
               <!-- product detail -->
@@ -74,11 +78,11 @@
                 <!-- icon here -->
                 <div class="label">
                   <i
-                    class="bi bi-headphones"
+                    class="bi bi-speaker"
                     style="color: rgb(13, 110, 253); font-size: 20px"
                   ></i>
                   <!-- product name -->
-                  <p>EchoSound Elite</p>
+                  <p>SonicPulse Xtreme</p>
                 </div>
                 <div class="product-decs">
                   <!-- another icon here -->
@@ -88,43 +92,9 @@
                   ></i>
                   <!-- product desc -->
                   <small>
-                    Immersive sound quality for music enthusiasts.
+                    Precision-engineered for audiophiles seeking rich bass and
+                    crisp highs.
                   </small>
-                </div>
-                <!-- product price -->
-                <small>Price: $329.99</small>
-              </div>
-              <!-- view more button -->
-              <div class="view-more-btn">
-                <a href="#">View Details</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="card-2">
-            <div class="img-container">
-              <img src="../assets/img/Bose 700.webp" alt="Bose 700" />
-            </div>
-            <div class="card">
-              <!-- product detail -->
-              <div class="product-detail">
-                <!-- icon here -->
-                <div class="label">
-                  <i
-                    class="bi bi-headphones"
-                    style="color: rgb(13, 110, 253); font-size: 20px"
-                  ></i>
-                  <!-- product name -->
-                  <p>BassBoom Pro</p>
-                </div>
-                <div class="product-decs">
-                  <!-- another icon here -->
-                  <i
-                    class="bi bi-soundwave"
-                    style="color: green; font-size: 20px"
-                  ></i>
-                  <!-- product desc -->
-                  <small> Long battery life with powerful bass. </small>
                 </div>
                 <!-- product price -->
                 <small>Price: $379.00</small>
@@ -135,9 +105,10 @@
               </div>
             </div>
           </div>
-          <div class="card-3">
+
+          <div class="card-2">
             <div class="img-container">
-              <img src="../assets/img/apple.jpg" alt="airpods" />
+              <img src="../assets/img/speaker-2.jpg" alt="BassThunder Pro" />
             </div>
             <div class="card">
               <!-- product detail -->
@@ -145,11 +116,48 @@
                 <!-- icon here -->
                 <div class="label">
                   <i
-                    class="bi bi-headphones"
+                    class="bi bi-speaker"
                     style="color: rgb(13, 110, 253); font-size: 20px"
                   ></i>
                   <!-- product name -->
-                  <p>CrystalWave 360</p>
+                  <p>BassThunder Pro</p>
+                </div>
+                <div class="product-decs">
+                  <!-- another icon here -->
+                  <i
+                    class="bi bi-soundwave"
+                    style="color: green; font-size: 20px"
+                  ></i>
+                  <!-- product desc -->
+                  <small>
+                    Powerful bass with stunning clarity, perfect for home
+                    parties and immersive soundscapes.
+                  </small>
+                </div>
+                <!-- product price -->
+                <small>Price: $349.99</small>
+              </div>
+              <!-- view more button -->
+              <div class="view-more-btn">
+                <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+          <div class="card-3">
+            <div class="img-container">
+              <img src="../assets/img/speaker-3.webp" alt="airpods" />
+            </div>
+            <div class="card">
+              <!-- product detail -->
+              <div class="product-detail">
+                <!-- icon here -->
+                <div class="label">
+                  <i
+                    class="bi bi-speaker"
+                    style="color: rgb(13, 110, 253); font-size: 20px"
+                  ></i>
+                  <!-- product name -->
+                  <p>CrystalWave Ultra</p>
                 </div>
                 <div class="product-decs">
                   <!-- another icon here -->
@@ -158,10 +166,13 @@
                     style="color: green; font-size: 20px"
                   ></i>
                   <!-- product desc -->
-                  <small> Crystal-clear sound and sleek design. </small>
+                  <small>
+                    Modern design with exceptional sound quality for a premium
+                    listening experience.
+                  </small>
                 </div>
                 <!-- product price -->
-                <small>Price: $399.99</small>
+                <small>Price: $419.99</small>
               </div>
               <!-- view more button -->
               <div class="view-more-btn">
@@ -171,10 +182,7 @@
           </div>
           <div class="card-4">
             <div class="img-container">
-              <img
-                src="../assets/img/ACCENTUM_Wireless_ATF_Main_Image.jpg"
-                alt="ACCENTUM Wireless"
-              />
+              <img src="../assets/img/speaker-4.webp" alt="SonicBlast X1" />
             </div>
             <div class="card">
               <!-- product detail -->
@@ -182,11 +190,11 @@
                 <!-- icon here -->
                 <div class="label">
                   <i
-                    class="bi bi-headphones"
+                    class="bi bi-speaker"
                     style="color: rgb(13, 110, 253); font-size: 20px"
                   ></i>
                   <!-- product name -->
-                  <p>BassBoomer Black Edition</p>
+                  <p>SonicBlast X1</p>
                 </div>
                 <div class="product-decs">
                   <!-- another icon here -->
@@ -208,7 +216,7 @@
           </div>
           <div class="card-5">
             <div class="img-container">
-              <img src="../assets/img/candyskull.webp" alt="candy skull" />
+              <img src="../assets/img/speaker-5.avif" alt="AcousticEdge Pro" />
             </div>
             <div class="card">
               <!-- product detail -->
@@ -216,11 +224,11 @@
                 <!-- icon here -->
                 <div class="label">
                   <i
-                    class="bi bi-headphones"
+                    class="bi bi-speaker"
                     style="color: rgb(13, 110, 253); font-size: 20px"
                   ></i>
                   <!-- product name -->
-                  <p>EchoVibe Pure Black</p>
+                  <p>AcousticEdge Pro</p>
                 </div>
                 <div class="product-decs">
                   <!-- another icon here -->
@@ -229,10 +237,13 @@
                     style="color: green; font-size: 20px"
                   ></i>
                   <!-- product desc -->
-                  <small> Sleek black design with noise-canceling </small>
+                  <small>
+                    Compact design with superior noise isolation and
+                    crystal-clear vocals.
+                  </small>
                 </div>
                 <!-- product price -->
-                <small>Price: $349.00</small>
+                <small>Price: $329.00</small>
               </div>
               <!-- view more button -->
               <div class="view-more-btn">
@@ -242,10 +253,7 @@
           </div>
           <div class="card-6">
             <div class="img-container">
-              <img
-                src="../assets/img/CrusherANC2_BestBuyBlackTan_S6CAW-S978_Hero_v001.webp"
-                alt="Crusher ANC2 Black Tan"
-              />
+              <img src="../assets/img/speaker-6.avif" alt="VelvetWave Studio" />
             </div>
             <div class="card">
               <!-- product detail -->
@@ -253,11 +261,11 @@
                 <!-- icon here -->
                 <div class="label">
                   <i
-                    class="bi bi-headphones"
+                    class="bi bi-speaker"
                     style="color: rgb(13, 110, 253); font-size: 20px"
                   ></i>
                   <!-- product name -->
-                  <p>SoundLuxe Tan & Black</p>
+                  <p>VelvetWave Studio</p>
                 </div>
                 <div class="product-decs">
                   <!-- another icon here -->
@@ -266,10 +274,13 @@
                     style="color: green; font-size: 20px"
                   ></i>
                   <!-- product desc -->
-                  <small> Crystal-clear sound and sleek design. </small>
+                  <small>
+                    Studio-grade sound with sleek modern design and dynamic
+                    range.
+                  </small>
                 </div>
                 <!-- product price -->
-                <small>Price: $399.99</small>
+                <small>Price: 499.99</small>
               </div>
               <!-- view more button -->
               <div class="view-more-btn">
@@ -279,7 +290,7 @@
           </div>
           <div class="card-7">
             <div class="img-container">
-              <img src="../assets/img/BudsPro-14.webp" alt="BudsPro-14" />
+              <img src="../assets/img/speaker-7.webp" alt="SonicElite Duo" />
             </div>
             <div class="card">
               <!-- product detail -->
@@ -287,11 +298,11 @@
                 <!-- icon here -->
                 <div class="label">
                   <i
-                    class="bi bi-headphones"
+                    class="bi bi-speaker"
                     style="color: rgb(13, 110, 253); font-size: 20px"
                   ></i>
                   <!-- product name -->
-                  <p>EchoPods Pro</p>
+                  <p>SonicElite Duo</p>
                 </div>
                 <div class="product-decs">
                   <!-- another icon here -->
@@ -300,10 +311,13 @@
                     style="color: green; font-size: 20px"
                   ></i>
                   <!-- product desc -->
-                  <small> Experience sound clarity like never before. </small>
+                  <small>
+                    Dual speakers delivering pristine sound clarity for an
+                    immersive audio experience.
+                  </small>
                 </div>
                 <!-- product price -->
-                <small>Price: $129.99</small>
+                <small>Price: $259.99</small>
               </div>
               <!-- view more button -->
               <div class="view-more-btn">
@@ -313,7 +327,7 @@
           </div>
           <div class="card-8">
             <div class="img-container">
-              <img src="../assets/img/buds3.jpg" alt="Buds 3" />
+              <img src="../assets/img/speaker-8.png" alt="CrystalCore Studio" />
             </div>
             <div class="card">
               <!-- product detail -->
@@ -321,11 +335,11 @@
                 <!-- icon here -->
                 <div class="label">
                   <i
-                    class="bi bi-headphones"
+                    class="bi bi-speaker"
                     style="color: rgb(13, 110, 253); font-size: 20px"
                   ></i>
                   <!-- product name -->
-                  <p>TransCrystal Buds</p>
+                  <p>CrystalCore Studio</p>
                 </div>
                 <div class="product-decs">
                   <!-- another icon here -->
@@ -334,10 +348,13 @@
                     style="color: green; font-size: 20px"
                   ></i>
                   <!-- product desc -->
-                  <small> Sleek transparency, unmatched performance. </small>
+                  <small>
+                    Minimalist design with powerful acoustics for unmatched
+                    transparency and performance.
+                  </small>
                 </div>
                 <!-- product price -->
-                <small>Price: $159.99</small>
+                <small>Price: $699.99</small>
               </div>
               <!-- view more button -->
               <div class="view-more-btn">
@@ -347,7 +364,7 @@
           </div>
           <div class="card-9">
             <div class="img-container">
-              <img src="../assets/img/airpods.jpg" alt="airpods" />
+              <img src="../assets/img/speaker-9.png" alt="BassPulse 360" />
             </div>
             <div class="card">
               <!-- product detail -->
@@ -355,11 +372,11 @@
                 <!-- icon here -->
                 <div class="label">
                   <i
-                    class="bi bi-headphones"
+                    class="bi bi-speaker"
                     style="color: rgb(13, 110, 253); font-size: 20px"
                   ></i>
                   <!-- product name -->
-                  <p>AirVibe Plus</p>
+                  <p>BassPulse 360</p>
                 </div>
                 <div class="product-decs">
                   <!-- another icon here -->
@@ -368,14 +385,185 @@
                     style="color: green; font-size: 20px"
                   ></i>
                   <!-- product desc -->
-                  <small> Comfort and sound reimagined. </small>
+                  <small>
+                    Revolutionary surround sound with rich bass and sleek
+                    comfort-focused design.
+                  </small>
                 </div>
                 <!-- product price -->
-                <small>Price: $199.99</small>
+                <small>Price: $489.99</small>
               </div>
               <!-- view more button -->
               <div class="view-more-btn">
                 <a href="#">View Details</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="reviews-container">
+        <h2>What Our Customers Say</h2>
+        <div class="customer-card-container">
+          <div class="customer-card">
+            <div class="customer-info-container">
+              <div class="customer-img-container">
+                <img
+                  src="../assets/img/Ryan_Reynolds.jpg"
+                  alt="customer profile picture"
+                />
+              </div>
+              <div class="customer-info">
+                <p>Ryan Reynolds</p>
+                <small>Verified Buyer</small>
+              </div>
+            </div>
+            <div class="customer-cmt">
+              <p>
+                The sound quality is fantastic! I'm impressed with the build and
+                the battery life.
+              </p>
+              <div class="stars">
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-half text-warning"></span>
+              </div>
+            </div>
+          </div>
+          <div class="customer-card">
+            <div class="customer-info-container">
+              <div class="customer-img-container">
+                <img
+                  src="../assets/img/justin.webp"
+                  alt="customer profile picture"
+                />
+              </div>
+              <div class="customer-info">
+                <p>Justin Bieber</p>
+                <small>Verified Buyer</small>
+              </div>
+            </div>
+            <div class="customer-cmt">
+              <p>
+                I love how easy it is to connect to my phone. Highly recommend
+                these speakers!
+              </p>
+              <div class="stars">
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+              </div>
+            </div>
+          </div>
+          <div class="customer-card">
+            <div class="customer-info-container">
+              <div class="customer-img-container">
+                <img
+                  src="../assets/img/clairo.png"
+                  alt="customer profile picture"
+                />
+              </div>
+              <div class="customer-info">
+                <p>Clairo</p>
+                <small>Verified Buyer</small>
+              </div>
+            </div>
+            <div class="customer-cmt">
+              <p>
+                Fast delivery and excellent sound quality. It's exactly what I
+                needed!
+              </p>
+              <div class="stars">
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-half text-warning"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="customer-card">
+            <div class="customer-info-container">
+              <div class="customer-img-container">
+                <img
+                  src="../assets/img/keshi.jpg"
+                  alt="customer profile picture"
+                />
+              </div>
+              <div class="customer-info">
+                <p>Keshi</p>
+                <small>Verified Buyer</small>
+              </div>
+            </div>
+            <div class="customer-cmt">
+              <p>Great value for the price! I'm very happy with my purchase.</p>
+              <div class="stars">
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="customer-card">
+            <div class="customer-info-container">
+              <div class="customer-img-container">
+                <img
+                  src="../assets/img/keshi.jpg"
+                  alt="customer profile picture"
+                />
+              </div>
+              <div class="customer-info">
+                <p>Beabadoobee</p>
+                <small>Verified Buyer</small>
+              </div>
+            </div>
+            <div class="customer-cmt">
+              <p>
+                The speakers are sleek and stylish. They fit perfectly in my
+                living room.
+              </p>
+              <div class="stars">
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-half text-warning"></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="customer-card">
+            <div class="customer-info-container">
+              <div class="customer-img-container">
+                <img
+                  src="../assets/img/eaj.jpg"
+                  alt="customer profile picture"
+                />
+              </div>
+              <div class="customer-info">
+                <p>Eaj</p>
+                <small>Verified Buyer</small>
+              </div>
+            </div>
+            <div class="customer-cmt">
+              <p>
+                Exceptional sound and the customer service is top-notch. Highly
+                recommended!
+              </p>
+              <div class="stars">
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
+                <span class="bi bi-star-fill text-warning"></span>
               </div>
             </div>
           </div>

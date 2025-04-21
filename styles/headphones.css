@@ -172,14 +172,13 @@ main {
 
 .card-container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columns */
-    gap: 20px; /* space between cards */
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 20px; 
     padding: 40px 0px;
     margin: auto;
 }
 
 .card-container > div {
-    /* background-color: #222;  */
     padding: 16px;
     border-radius: 12px;
     height: 600px;
@@ -195,6 +194,7 @@ main {
     display: flex;
     margin: auto;
     height: 280px;
+    max-width: 350px;
 }
 
 .card {
