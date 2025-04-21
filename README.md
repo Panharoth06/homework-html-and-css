@@ -1,2 +1,1 @@
-# homework-html-and-css
-## No responsive (too lazy)
+# This website has no responsive 😔😔😔
